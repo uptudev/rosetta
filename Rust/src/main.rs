@@ -9,6 +9,7 @@ pub fn fibonacci() {
         b = c;
         println!("{:?}", b);
     }
+    println!("Overflowed!");
 }
 
 fn main() {
