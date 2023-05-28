@@ -6,6 +6,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 * Assembly (x86_64)
 * C
 * C++
+* C#
 * Java
 * JavaScript
 * Lua
