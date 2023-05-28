@@ -11,7 +11,7 @@ while (true) {
         break;
     }
 
+    console.log(c.toString());
     a = b;
     b = c;
-    console.log(c.toString());
 }
