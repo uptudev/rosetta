@@ -10,6 +10,7 @@ public class Class {
             ulong num3 = num + num2;
             if(num3 < num2) {
                 Console.WriteLine("Overflowed!");
+                break;
             }
             
             Console.WriteLine(num3);
