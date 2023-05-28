@@ -3,9 +3,13 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 
 ## Current Languages
 
-* x86_64 Assembly
+* Assembly (x86_64)
 * C
 * C++
 * Java
+* JavaScript
+* Lua
+* Python
 * Rust
+* TypeScript
 * Zig
