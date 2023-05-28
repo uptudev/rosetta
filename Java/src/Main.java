@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         long a = Long.parseUnsignedLong("0");
         System.out.println(a);
         long b = Long.parseUnsignedLong("1");
