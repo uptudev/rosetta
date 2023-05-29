@@ -5,9 +5,9 @@ pub fn fibonacci() {
     println!("{:?}", b);
 
     while let Some(c) = a.checked_add(b) {
+        println!("{:?}", c);
         a = b;
         b = c;
-        println!("{:?}", b);
     }
     println!("Overflowed!");
 }
