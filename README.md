@@ -7,7 +7,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/uptudev/rosetta/blob/main/C/fibonacci.c)
 [![C++](https://img.shields.io/badge/c++-black?style=for-the-badge&logo=cplusplus)](https://github.com/uptudev/rosetta/blob/main/C%2B%2B/fibonacci.cpp)
 [![C#](https://img.shields.io/badge/c%23-black?style=for-the-badge&logo=csharp)](https://github.com/uptudev/rosetta/blob/main/C%23/fibonacci.cs)
-[![Java](https://img.shields.io/badge/Java-black?style=for-the-badge&logo=eclipse)](https://github.com/uptudev/rosetta/blob/main/Java/src/Main.java)
+[![Java](https://img.shields.io/badge/Java-black?style=for-the-badge&logo=openjdk)](https://github.com/uptudev/rosetta/blob/main/Java/src/Main.java)
 [![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/uptudev/rosetta/blob/main/JavaScript/fibonacci.js)
 [![Lua](https://img.shields.io/badge/Lua-black?style=for-the-badge&logo=lua)](https://github.com/uptudev/rosetta/blob/main/Lua/fibonacci.lua)
 [![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)](https://github.com/uptudev/rosetta/blob/main/Python/fibonacci.py)
