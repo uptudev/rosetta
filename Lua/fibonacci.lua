@@ -1,5 +1,8 @@
--- Note that Lua's `integer` subtype is the equivalent of an i64, not a u64.
--- As such, it will max out at a value one iteration before the languages supporting unsigned integers.
+-- Lua >5.3 officially supports only signed 64-bit values with the `integer` subtype.
+-- As such, even though the `string.format` call below interprets it as a u64,
+-- the internal value is still calculated via i64 math.
+-- Because of this, technically the i64 will "overflow" one iteration early,
+-- so we have to account for this with control flow even if the formatter can "pretend" its a u64.
 
 local a = math.tointeger(0)
 print(a)
@@ -9,6 +12,8 @@ print(b)
 while(true)
 do
     local c = math.tointeger(a + b)
+    local cstr = string.format("%u", c)
+    print(cstr)
 
     if(c < b)
     then
@@ -16,7 +21,6 @@ do
         break
     end
 
-    print(c)
     a = b
     b = c
 end
