@@ -11,6 +11,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/uptudev/rosetta/blob/main/JavaScript/fibonacci.js)
 [![Kotlin](https://img.shields.io/badge/Kotlin-black?style=for-the-badge&logo=kotlin)](https://kotlinlang.org/)
 [![Lua](https://img.shields.io/badge/Lua-black?style=for-the-badge&logo=lua)](https://github.com/uptudev/rosetta/blob/main/Lua/fibonacci.lua)
+[![OCaml](https://img.shields.io/badge/OCaml-black?style=for-the-badge&logo=ocaml)](https://github.com/uptudev/rosetta/blob/main/OCaml/fibonacci.ml)
 [![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)](https://github.com/uptudev/rosetta/blob/main/Python/fibonacci.py)
 [![Rust](https://img.shields.io/badge/rust-black?style=for-the-badge&logo=rust)](https://github.com/uptudev/rosetta/blob/main/Rust/src/main.rs)
 [![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=TypeScript)](https://github.com/uptudev/rosetta/blob/main/TypeScript/fibonacci.ts)
