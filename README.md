@@ -9,6 +9,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![C#](https://img.shields.io/badge/c%23-black?style=for-the-badge&logo=csharp)](https://github.com/uptudev/rosetta/blob/main/C%23/fibonacci.cs)
 [![Java](https://img.shields.io/badge/Java-black?style=for-the-badge&logo=openjdk)](https://github.com/uptudev/rosetta/blob/main/Java/src/Main.java)
 [![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/uptudev/rosetta/blob/main/JavaScript/fibonacci.js)
+[![Kotlin](https://img.shields.io/badge/Kotlin-black?style=for-the-badge&logo=kotlin)](https://kotlinlang.org/)
 [![Lua](https://img.shields.io/badge/Lua-black?style=for-the-badge&logo=lua)](https://github.com/uptudev/rosetta/blob/main/Lua/fibonacci.lua)
 [![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)](https://github.com/uptudev/rosetta/blob/main/Python/fibonacci.py)
 [![Rust](https://img.shields.io/badge/rust-black?style=for-the-badge&logo=rust)](https://github.com/uptudev/rosetta/blob/main/Rust/src/main.rs)
