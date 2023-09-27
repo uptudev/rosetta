@@ -1,11 +1,11 @@
 pub fn fibonacci() {
     let mut a: u64 = 0;
-    println!("{:?}", a);
+    println!("{}", a);
     let mut b: u64 = 1;
-    println!("{:?}", b);
+    println!("{}", b);
 
     while let Some(c) = a.checked_add(b) {
-        println!("{:?}", c);
+        println!("{}", c);
         a = b;
         b = c;
     }
