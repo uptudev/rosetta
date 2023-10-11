@@ -8,5 +8,8 @@ let rec fibonacci a b =
 
 let () = 
   let a = 0L in
+  Printf.printf "%Lu\n" a;
   let b = 1L in
-  fibonacci a b
+  Printf.printf "%Lu\n" b;
+  fibonacci a b;
+  exit(0)
