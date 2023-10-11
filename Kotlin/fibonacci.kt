@@ -1,4 +1,4 @@
-fun fibonacci() {
+fun main(args: Array<String>) {
     var a: ULong = 0u;
     println(a);
     var b: ULong = 1u;
@@ -16,8 +16,4 @@ fun fibonacci() {
         a = b;
         b = c;
     }
-}
-
-fun main(args: Array<String>) {
-    fibonacci();
 }

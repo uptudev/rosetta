@@ -1,6 +1,6 @@
 const out = @import("std").io.getStdOut().writer();
 
-fn fibonacci() !void {
+pub fn main() !void {
     var a: u64 = 0;
     try out.print("{}\n", .{a});
     var b: u64 = 1;
@@ -17,8 +17,4 @@ fn fibonacci() !void {
         a = b;
         b = res[0];
     }
-}
-
-pub fn main() !void {
-    try fibonacci();
 }

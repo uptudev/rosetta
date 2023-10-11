@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func fibonacci() {
+func main() {
     var a uint64 = 0;
     fmt.Println(a)
     var b uint64 = 1;
@@ -19,8 +19,4 @@ func fibonacci() {
         a = b
         b = c
     }
-}
-
-func main() {
-    fibonacci()
 }

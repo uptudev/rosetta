@@ -1,4 +1,4 @@
-pub fn fibonacci() {
+fn main() {
     let mut a: u64 = 0;
     println!("{}", a);
     let mut b: u64 = 1;
@@ -10,8 +10,4 @@ pub fn fibonacci() {
         b = c;
     }
     println!("Overflowed!");
-}
-
-fn main() {
-    fibonacci();
 }

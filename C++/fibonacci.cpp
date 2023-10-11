@@ -1,6 +1,6 @@
 #include <iostream>
 
-void fibonacci() {
+int main() {
     unsigned long long a = 0;
     std::cout << a << '\n';
     unsigned long long b = 1;
@@ -11,17 +11,11 @@ void fibonacci() {
 
         if (c < b) {
             std::cout << "Overflowed!\n";
-            break;
+            return 0;
         }
 
         std::cout << c << '\n';
         a = b;
         b = c;
     }
-}
-
-int main() {
-    fibonacci();
-
-    return 0;
 }
