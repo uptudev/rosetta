@@ -14,10 +14,11 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![Lisp](https://img.shields.io/badge/Lisp-black?style=for-the-badge&logo=racket)](https://github.com/uptudev/rosetta/blob/main/Lisp/fibonacci.lisp)
 [![Lua](https://img.shields.io/badge/Lua-black?style=for-the-badge&logo=lua)](https://github.com/uptudev/rosetta/blob/main/Lua/fibonacci.lua)
 [![OCaml](https://img.shields.io/badge/OCaml-black?style=for-the-badge&logo=ocaml)](https://github.com/uptudev/rosetta/blob/main/OCaml/fibonacci.ml)
+[![PHP](https://img.shields.io/badge/PHP-black?style=for-the-badge&logo=php)](https://github.com/uptudev/rosetta/blob/main/PHP/fibonacci.php)
 [![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)](https://github.com/uptudev/rosetta/blob/main/Python/fibonacci.py)
 [![Ruby](https://img.shields.io/badge/ruby-black?style=for-the-badge&logo=ruby)](https://github.com/uptudev/rosetta/blob/main/Ruby/fibonacci.rb)
 [![Rust](https://img.shields.io/badge/rust-black?style=for-the-badge&logo=rust)](https://github.com/uptudev/rosetta/blob/main/Rust/fibonacci.rs)
 [![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=TypeScript)](https://github.com/uptudev/rosetta/blob/main/TypeScript/fibonacci.ts)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/iqhMnvS.png)
+![Image](https://i.imgur.com/67yM3Df.png)
