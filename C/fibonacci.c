@@ -7,10 +7,10 @@ void fibonacci() {
     unsigned long long b = 1;
     printf("%llu\n", b);
 
-    while(true) {
+    while (true) {
         unsigned long long c = a + b;
 
-        if(c < b) {
+        if (c < b) {
             printf("Overflowed!\n");
             break;
         }
