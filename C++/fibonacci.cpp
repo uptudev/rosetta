@@ -6,10 +6,10 @@ void fibonacci() {
     unsigned long long b = 1;
     std::cout << b << '\n';
 
-    while (true) {
+    while(true) {
         unsigned long long c = a + b;
 
-        if (c < b) {
+        if(c < b) {
             std::cout << "Overflowed!\n";
             break;
         }
