@@ -10,7 +10,7 @@ fn fibonacci() !void {
         const res = @addWithOverflow(a, b);
         if (res[1] == 1) {
             try out.print("Overflowed!\n", .{});
-            break;
+            return;
         }
 
         try out.print("{}\n", .{res[0]});
