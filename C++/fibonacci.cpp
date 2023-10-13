@@ -5,17 +5,15 @@ int main() {
     std::cout << a << '\n';
     unsigned long long b = 1;
     std::cout << b << '\n';
+    unsigned long long c = a + b;
 
-    while (true) {
-        unsigned long long c = a + b;
-
-        if (c < b) {
-            std::cout << "Overflowed!\n";
-            return 0;
-        }
-
+    do {
         std::cout << c << '\n';
         a = b;
         b = c;
-    }
+        c = a + b;
+    } while (c >= b);
+
+    std::cout << "Overflowed!\n";
+    return 0;
 }

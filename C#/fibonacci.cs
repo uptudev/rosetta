@@ -1,21 +1,19 @@
 using System;
 public class Class {
     public static void Main() {
-        ulong num = 0uL;
-        Console.WriteLine(num);
-        ulong num2 = 1uL;
-        Console.WriteLine(num2);
+        ulong a = 0uL;
+        Console.WriteLine(a);
+        ulong b = 1uL;
+        Console.WriteLine(b);
+        ulong c = a + b;
         
-        while(true) {
-            ulong num3 = num + num2;
-            if(num3 < num2) {
-                Console.WriteLine("Overflowed!");
-                break;
-            }
-            
-            Console.WriteLine(num3);
-            num = num2;
-            num2 = num3;
-        }
+        do {
+            Console.WriteLine(c);
+            a = b;
+            b = c;
+            c = a + b;
+        } while (c >= b);
+
+        Console.WriteLine("Overflowed!");
     }
 }

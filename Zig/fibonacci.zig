@@ -7,14 +7,14 @@ pub fn main() !void {
     try out.print("{}\n", .{b});
 
     while (true) {
-        const res = @addWithOverflow(a, b);
-        if (res[1] == 1) {
+        const c = @addWithOverflow(a, b);
+        if (c[1] == 1) {
             try out.print("Overflowed!\n", .{});
             return;
         }
 
-        try out.print("{}\n", .{res[0]});
+        try out.print("{}\n", .{c[0]});
         a = b;
-        b = res[0];
+        b = c[0];
     }
 }

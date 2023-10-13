@@ -4,17 +4,15 @@ public class Main {
         System.out.println(a);
         long b = Long.parseUnsignedLong("1");
         System.out.println(b);
+        long c = a + b;
 
-        while (true) {
-            long c = a + b;
-            if (Long.compareUnsigned(c, b) < 0) {
-                System.out.println("Overflowed!");
-                break;
-            }
-
+        do {
             System.out.println(Long.toUnsignedString(c));
             a = b;
             b = c;
-        }
+            c = a + b;
+        } while (Long.compareUnsigned(c, b) >= 0);
+
+        System.out.println("Overflowed!");
     }
 }

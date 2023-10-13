@@ -3,17 +3,14 @@ fun main(args: Array<String>) {
     println(a);
     var b: ULong = 1u;
     println(b);
+    var c: ULong = a + b;
 
-    while(true) {
-        val c: ULong = a + b;
-
-        if (c < b) {
-            println("Overflowed!");
-            break;
-        }
-
+    do {
         println(c);
         a = b;
         b = c;
-    }
+        c = a + b;
+    } while (c >= b);
+
+    println("Overflowed!");
 }
