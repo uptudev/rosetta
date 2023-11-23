@@ -7,6 +7,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/uptudev/rosetta/blob/main/C/fibonacci.c)
 [![C++](https://img.shields.io/badge/c++-black?style=for-the-badge&logo=cplusplus)](https://github.com/uptudev/rosetta/blob/main/C%2B%2B/fibonacci.cpp)
 [![C#](https://img.shields.io/badge/c%23-black?style=for-the-badge&logo=csharp)](https://github.com/uptudev/rosetta/blob/main/C%23/fibonacci.cs)
+[![Dart](https://img.shields.io/badge/Dart-black?style=for-the-badge&logo=dart)](https://github.com/uptudev/rosetta/blob/main/Dart/fibonacci.dart)
 [![Go](https://img.shields.io/badge/Go-black?style=for-the-badge&logo=go)](https://github.com/uptudev/rosetta/blob/main/Go/fibonacci.go)
 [![Haskell](https://img.shields.io/badge/Haskell-black?style=for-the-badge&logo=haskell)](https://github.com/uptudev/rosetta/blob/main/Haskell/fibonacci.hs)
 [![Java](https://img.shields.io/badge/Java-black?style=for-the-badge&logo=openjdk)](https://github.com/uptudev/rosetta/blob/main/Java/fibonacci.java)
@@ -22,4 +23,4 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=TypeScript)](https://github.com/uptudev/rosetta/blob/main/TypeScript/fibonacci.ts)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/GqULwG4.png)
+![Image](https://i.imgur.com/bPGXWhK.png)
