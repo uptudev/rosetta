@@ -23,4 +23,4 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=TypeScript)](https://github.com/uptudev/rosetta/blob/main/TypeScript/fibonacci.ts)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/bPGXWhK.png)
+![Image](https://i.imgur.com/hi1Gur3.png)
