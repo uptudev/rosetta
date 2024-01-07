@@ -14,6 +14,6 @@ int main() {
         c = a + b;
     } while (c >= b);
 
-    printf("Overflowed!\n");
+    puts("Overflowed!");
     return 0;
 }

@@ -44,7 +44,7 @@ main:
 
     # print overflow string
 	movl	$.overflow_str, %edi
-	callq	puts@PLT
+	callq	puts
 
     # clear `%eax` and increment stack pointer
 	xorl	%eax, %eax
