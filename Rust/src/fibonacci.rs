@@ -1,3 +1,4 @@
+// Legacy fibonacci function which prints all within u64 bounds
 fn main() {
     let mut a: u64 = 0;
     println!("{}", a);
