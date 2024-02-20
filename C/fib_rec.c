@@ -3,7 +3,7 @@
 int rec_fib(unsigned long long a, unsigned long long b) {
     unsigned long long c = a + b;
     if (c < b) {
-        puts("Overflowed!\n");
+        puts("Overflowed!");
         return 0;
     }
 

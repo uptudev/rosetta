@@ -6,17 +6,17 @@ func main() {
     fmt.Println(a)
     var b uint64 = 1;
     fmt.Println(b)
+    var c uint64 = a + b;
 
     for true {
-        var c uint64 = a + b
-
-        if c < b {
-            fmt.Println("Overflowed!")
-            break
-        }
-
         fmt.Println(c)
         a = b
         b = c
+        c = a + b
+        if c > b {
+            continue
+        }
+        fmt.Println("Overflowed!")
+        break
     }
 }
