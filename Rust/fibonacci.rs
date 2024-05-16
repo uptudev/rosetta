@@ -6,8 +6,7 @@ fn main() {
 
     while let Some(c) = a.checked_add(b) {
         println!("{}", c);
-        a = b;
-        b = c;
+        a = std::mem::replace(&mut b, c);
     }
     println!("Overflowed!");
 }
