@@ -8,7 +8,7 @@ main:
     # push register values to the stack
 	pushq	%r14
 	pushq	%rbx
-	pushq	%rax
+	xorq    %rax, %rax
 
     # print `0`
 	movl	$.format_str, %edi
@@ -48,7 +48,6 @@ main:
 
     # clear `%eax` and increment stack pointer
 	xorl	%eax, %eax
-	addq	$8, %rsp
 
     # pop old values back into the registers and return out
 	popq	%rbx
