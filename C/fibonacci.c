@@ -7,13 +7,15 @@ int main() {
     printf("%llu\n", b);
     unsigned register long long c = a + b;
 
-    do {
+    loop:
         printf("%llu\n", c);
         a = b;
         b = c;
         c = a + b;
-    } while (c >= b);
+        if (c < b) {goto exit;}
+        goto loop;
 
-    puts("Overflowed!");
-    return 0;
+    exit:
+        puts("Overflowed!");
+        return 0;
 }
