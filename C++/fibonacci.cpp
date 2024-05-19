@@ -7,13 +7,15 @@ int main() {
     std::cout << b << '\n';
     unsigned long long c = a + b;
 
-    do {
+    loop:
         std::cout << c << '\n';
         a = b;
         b = c;
         c = a + b;
-    } while (c >= b);
+        if (c < b) {goto overflow;}
+        goto loop;
 
-    std::cout << "Overflowed!\n";
-    return 0;
+    overflow:
+        std::cout << "Overflowed!\n";
+        return 0;
 }
