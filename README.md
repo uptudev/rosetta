@@ -23,6 +23,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![Ruby](https://img.shields.io/badge/ruby-black?style=for-the-badge&logo=ruby)](https://github.com/uptudev/rosetta/blob/main/Ruby/fibonacci.rb)
 [![Rust](https://img.shields.io/badge/rust-black?style=for-the-badge&logo=rust)](https://github.com/uptudev/rosetta/blob/main/Rust/fibonacci.rs)
 [![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=TypeScript)](https://github.com/uptudev/rosetta/blob/main/TypeScript/fibonacci.ts)
+[![V](https://img.shields.io/badge/V-black?style=for-the-badge&logo=V)](https://github.com/uptudev/rosetta/blob/main/V/fibonacci.v)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/S3YkEpr.png)
+![Image](https://i.imgur.com/hZA7R1D.png)
