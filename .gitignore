@@ -1,38 +1,4 @@
-*
-!*.*
-!*/
-*.o
-*/target
-Zig/zig-cache
-Zig/build.zig
-
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-*.iml
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+# exclude binaries and object files
+/*/fibonacci
+/*/*.o
+/*/a.out
