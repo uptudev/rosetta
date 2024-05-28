@@ -5,14 +5,11 @@ fn main() {
     println(b)
     mut c:= a + b
     
-    for {
+    for c >= b {
         println(c)
         a = b
         b = c
         c = a + b
-        if c < b {
-            break
-        }
     }
 
     println("Overflowed!")
