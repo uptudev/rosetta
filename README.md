@@ -3,6 +3,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 
 ## Current Languages
 
+[![Ada](https://img.shields.io/badge/Ada-black?style=for-the-badge&logo=Ada)](https://github.com/uptudev/rosetta/blob/main/Ada/fibonacci.adb)
 [![Assembly (x86_64)](https://img.shields.io/badge/assembly%20%28x64%29-black?style=for-the-badge&logo=AssemblyScript)](https://github.com/uptudev/rosetta/blob/main/Assembly%20%28x86_64%29/fibonacci.asm)
 [![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/uptudev/rosetta/blob/main/C/fibonacci.c)
 [![C++](https://img.shields.io/badge/c++-black?style=for-the-badge&logo=cplusplus)](https://github.com/uptudev/rosetta/blob/main/C%2B%2B/fibonacci.cpp)
@@ -26,4 +27,4 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![V](https://img.shields.io/badge/V-black?style=for-the-badge&logo=V)](https://github.com/uptudev/rosetta/blob/main/V/fibonacci.v)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/hZA7R1D.png)
+![Image](https://i.imgur.com/sp88pko.png)
