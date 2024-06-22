@@ -16,6 +16,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![Kotlin](https://img.shields.io/badge/Kotlin-black?style=for-the-badge&logo=kotlin)](https://github.com/uptudev/rosetta/blob/main/Kotlin/fibonacci.kt)
 [![Lisp](https://img.shields.io/badge/Lisp-black?style=for-the-badge&logo=racket)](https://github.com/uptudev/rosetta/blob/main/Lisp/fibonacci.lisp)
 [![Lua](https://img.shields.io/badge/Lua-black?style=for-the-badge&logo=lua)](https://github.com/uptudev/rosetta/blob/main/Lua/fibonacci.lua)
+[![Nelua](https://img.shields.io/badge/Nelua-black?style=for-the-badge&logo=Lua)](https://github.com/uptudev/rosetta/blob/main/Nelua/fibonacci.nelua)
 [![OCaml](https://img.shields.io/badge/OCaml-black?style=for-the-badge&logo=ocaml)](https://github.com/uptudev/rosetta/blob/main/OCaml/fibonacci.ml)
 [![Odin](https://img.shields.io/badge/Odin-black?style=for-the-badge&logo=osano)](https://github.com/uptudev/rosetta/blob/main/Odin/fibonacci.odin)
 [![Pascal](https://img.shields.io/badge/Pascal-black?style=for-the-badge&logo=Planet)](https://github.com/uptudev/rosetta/blob/main/Pascal/fibonacci.pas)
@@ -27,4 +28,4 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![V](https://img.shields.io/badge/V-black?style=for-the-badge&logo=V)](https://github.com/uptudev/rosetta/blob/main/V/fibonacci.v)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/sp88pko.png)
+![Image](https://i.imgur.com/LI9TK9y.png)
