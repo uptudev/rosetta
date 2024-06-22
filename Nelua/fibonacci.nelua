@@ -1,0 +1,14 @@
+local a: uint64 = 0
+print(a)
+local b: uint64 = 1
+print(b)
+local c = a + b
+
+repeat
+    print(c)
+    a = b
+    b = c
+    c = a + b
+until (c < b)
+
+print("Overflowed!")
