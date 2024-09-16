@@ -20,6 +20,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![OCaml](https://img.shields.io/badge/OCaml-black?style=for-the-badge&logo=ocaml)](https://github.com/uptudev/rosetta/blob/main/OCaml/fibonacci.ml)
 [![Odin](https://img.shields.io/badge/Odin-black?style=for-the-badge&logo=osano)](https://github.com/uptudev/rosetta/blob/main/Odin/fibonacci.odin)
 [![Pascal](https://img.shields.io/badge/Pascal-black?style=for-the-badge&logo=Planet)](https://github.com/uptudev/rosetta/blob/main/Pascal/fibonacci.pas)
+[![Perl](https://img.shields.io/badge/Perl-black?style=for-the-badge&logo=Perl)](https://github.com/uptudev/rosetta/blob/main/Perl/fibonacci.pl)
 [![PHP](https://img.shields.io/badge/PHP-black?style=for-the-badge&logo=php)](https://github.com/uptudev/rosetta/blob/main/PHP/fibonacci.php)
 [![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)](https://github.com/uptudev/rosetta/blob/main/Python/fibonacci.py)
 [![Ruby](https://img.shields.io/badge/ruby-black?style=for-the-badge&logo=ruby)](https://github.com/uptudev/rosetta/blob/main/Ruby/fibonacci.rb)
@@ -28,4 +29,4 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![V](https://img.shields.io/badge/V-black?style=for-the-badge&logo=V)](https://github.com/uptudev/rosetta/blob/main/V/fibonacci.v)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/LI9TK9y.png)
+![Image](https://i.imgur.com/jFpiZiC.png)
