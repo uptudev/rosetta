@@ -70,7 +70,7 @@ main:
 
 .overflow:
 # Print overflow string
-    lea     rdi, [rip + .overflow_str]
+    	lea     rdi, [rip + .overflow_str]
 	call	puts
 
 # Align stack
