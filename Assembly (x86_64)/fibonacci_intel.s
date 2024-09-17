@@ -1,75 +1,89 @@
-.global main
+# Constants
+.section    .rodata
+.fmt_str:
+	.string	"%llu\n"
+
+.overflow_str:
+	.string	"Overflowed!"
+
+# Code
+.text
+.globl	main
 .intel_syntax noprefix
 
 # Entry point
-.p2align	4, 0x90
-.type	main,@function
 main:
-    # Save registers and zero out rax
-    push    r14
-    push    rbx
-    xor     rax, rax
+    # Push old values onto the stack and zero out syscall registers
+	push 	r13
+	push 	r12
+	push 	rbp
+	push 	rbx
+	xor 	rsi, rsi
+	xor 	rax, rax
 
-    # print `0`
-    mov     edi, offset .format_str
-    xor     esi, esi
-    xor     eax, eax
-    call    printf
+    # Format string address into r13 for later use
+    lea     r13, [rip + .fmt_str]
 
-    # print `1`
-    mov     r14d, 1
-    mov     edi, offset .format_str
-    mov     esi, 1
-    xor     eax, eax
-    call    printf
+    # Print `0`
+	mov 	rdi, r13    # load format string address into rdi
+	mov 	r12, 1      # load 1 into r12
+	mov 	rbx, 1      # load 1 into rbx
+	sub 	rsp, 8      # subtract 8 from rsp to align stack
+	call	printf      # call printf
 
-    # initialize loop variable
-    mov     ebx, 1
+    # Print `1`
+	mov 	rsi, 1      # load 1 into rsi (was 0 before)
+	mov 	rdi, r13    # reload format string address into rdi
+	call	printf      # call printf
 
-# loop procedure
-.p2align    4, 0x90
+    # Loop goto
 .loop:
-    # print current value
-    mov     edi, offset .format_str
-    mov     rsi, rbx
-    xor     eax, eax
-    call    printf
+    # Print rbx
+	mov 	rsi, rbx
+	mov 	rdi, r13
+	call	printf  
 
-    # add values, jumping up the loop unless the carry flag is set (indicating overflow)
-    mov     rax, r14
-    mov     r14, rbx
-    add     rax, rbx
-    mov     rbx, rax
-    jae     .loop
+    # Add rbx and r12 into rbp; check for overflow
+	mov 	rbp, r12
+	add 	rbp, rbx
+	jc	    .overflow
 
-    # print overflow message
-    mov     rax, 1
-    mov     rdi, 1
-    mov     rsi, offset .overflow_str
-    mov     rdx, 13
-    syscall
+    # Print rbp
+	mov 	rsi, rbp
+	mov 	rdi, r13
+	call	printf  
 
-    # clear registers, pop old registers, and exit
-    xor     rax, rax
-    xor     rdi, rdi
-    xor     rsi, rsi
-    xor     rdx, rdx
-    pop     rbx
-    pop     r14
-    ret
+    # Add rbp and rbx into r12; check for overflow
+	mov 	r12, rbx
+	add 	r12, rbp
+	jc	    .overflow
 
+    # Print r12
+    mov 	rsi, r12
+	mov 	rdi, r13
+	call	printf
+
+    # Add r12 and rbp into rbx; check for overflow
+    mov     rbx, rbp
+    add     rbx, r12
+	jnc	    .loop
+
+.overflow:
+    # Print overflow string
+    lea     rdi, [rip + .overflow_str]
+	call	puts
+
+    # Align stack
+    add     rsp, 8
+
+    # Reset registers and return
+	xor 	rax, rax
+	pop 	rbx
+	pop 	rbp
+	pop 	r12
+	pop 	r13
+	ret
+
+# Calculate main function size for the linker
 .end:
-    .size main, .end-main
-
-# Format string for u64 -> String conversion
-	.type	.format_str,@object
-	.section	.rodata.str1.1,"aMS",@progbits,1
-.format_str:
-	.asciz	"%llu\n"
-	.size	.format_str, 6
-
-# String to print when integer overflows
-	.type	.overflow_str,@object
-.overflow_str:
-	.asciz	"Overflowed!\n"
-	.size	.overflow_str, 13
+	.size	main, .-main
