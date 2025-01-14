@@ -6,6 +6,7 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![Ada](https://img.shields.io/badge/Ada-black?style=for-the-badge&logo=bevy)](https://github.com/uptudev/rosetta/blob/main/Ada/fibonacci.adb)
 [![Assembly (x86_64)](https://img.shields.io/badge/assembly%20%28x64%29-black?style=for-the-badge&logo=AssemblyScript)](https://github.com/uptudev/rosetta/blob/main/Assembly%20%28x86_64%29/fibonacci.s)
 [![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/uptudev/rosetta/blob/main/C/fibonacci.c)
+[![C3](https://img.shields.io/badge/c3-black?style=for-the-badge&logo=ccc)](https://github.com/uptudev/rosetta/blob/main/C3/fibonacci.c3)
 [![C++](https://img.shields.io/badge/c++-black?style=for-the-badge&logo=cplusplus)](https://github.com/uptudev/rosetta/blob/main/C%2B%2B/fibonacci.cpp)
 [![C#](https://img.shields.io/badge/c%23-black?style=for-the-badge&logo=csharp)](https://github.com/uptudev/rosetta/blob/main/C%23/fibonacci.cs)
 [![Dart](https://img.shields.io/badge/Dart-black?style=for-the-badge&logo=dart)](https://github.com/uptudev/rosetta/blob/main/Dart/fibonacci.dart)
