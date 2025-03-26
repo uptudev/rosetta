@@ -13,11 +13,17 @@ main:
     stp x29, x30, [sp, -0x10]!
 
     # Load effective address of .fmt into x0 (via x64 bitmask trickery)
-    adrp x0, .fmt
-    add x0, x0, :lo12:.fmt
+    adrp x30, .fmt
+    add x30, x30, :lo12:.fmt
 
     # Print `0`
+    mov x0, x30
     mov x1, xzr
+    bl printf
+
+    # Print `0`
+    mov x0, x30
+    mov x1, 0x1
     bl printf
 
     # Print `1`
