@@ -20,6 +20,10 @@ main:
     mov x1, xzr
     bl printf
 
+    # Print `1`
+    mov x1, 0x1
+    bl printf
+
     # End of program; pop frame pointer and link register; decrement sp by 16 and return 0
     ldp x29, x30, [sp], 0x10
     mov w0, wzr
