@@ -31,4 +31,4 @@ The Rosetta Stone of languages I know, with a version of a function which genera
 [![V](https://img.shields.io/badge/V-black?style=for-the-badge&logo=V)](https://github.com/uptudev/rosetta/blob/main/V/fibonacci.v)
 [![Zig](https://img.shields.io/badge/Zig-black?style=for-the-badge&logo=Zig)](https://github.com/uptudev/rosetta/blob/main/Zig/fibonacci.zig)
 
-![Image](https://i.imgur.com/B54kfkk.png)
+![Image](https://i.imgur.com/ZkXns4o.png)
