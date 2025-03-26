@@ -11,9 +11,9 @@
 main:
     // Push frame pointer and link register to stack; increment sp by 16
     // Frame pointer is now the stack pointer value
-    stp x29, x30, [sp, -0x30]!  # Frame pointer and link register
-    stp x10, x11, [sp, 0x10]    # Calculation registers
-    stp x12, x13, [sp, 0x20]    # String address registers
+    stp x29, x30, [sp, -0x30]!  // Frame pointer and link register
+    stp x10, x11, [sp, 0x10]    // Calculation registers
+    stp x12, x13, [sp, 0x20]    // String address registers
     mov x29, sp
     
     // Load effective addresses of strings into x0 (via x64 bitmask trickery)
