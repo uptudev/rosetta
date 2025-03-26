@@ -1,7 +1,7 @@
 .text
 .globl main
 main:
-    stp x29, x30, [sp, -0x28]!
+    stp x29, x30, [sp, -0x30]!
     stp x20, x19, [sp, 0x10]
     str x21, [sp, 0x20]
     mov x29, sp
@@ -27,7 +27,7 @@ main:
     mov w0, wzr
     ldr x12, [sp, 0x20]
     ldp x10, x11, [sp, 0x10]
-    ldp x29, x30, [sp], 0x28
+    ldp x29, x30, [sp], 0x30
     ret
 
     .section    .rodata
