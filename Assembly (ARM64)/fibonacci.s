@@ -25,12 +25,12 @@ main:
 
     // Print `0`
     mov x0, x12
-    mov w1, wzr
+    mov x1, xzr
     bl printf
 
     // Print `1`
     mov x0, x12
-    mov x1, #1
+    mov x1, xzr
     bl printf
 
     // End of program; pop old register values
