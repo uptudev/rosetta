@@ -27,7 +27,7 @@ main:
     mov w0, wzr
     ldr x12, [sp, 0x20]
     ldp x10, x11, [sp, 0x10]
-    ldp x29, x30, [sp], 0x30
+    ldp x29, x30, [sp], 0x28
     ret
 
     .section    .rodata
