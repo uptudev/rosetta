@@ -27,6 +27,7 @@ main:
     bl printf
 
     # Print `1`
+    mov x0, x30
     mov x1, 0x1
     bl printf
 
